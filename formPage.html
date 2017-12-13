@@ -1,0 +1,33 @@
+<!--
+FILE NAME: formPage.html
+AUTHOR: Quintin Mudge
+DATE CREATED: 11/09/2016
+OPERATING SYSTEM: Win32
+VERSION: Windows 7 Pro
+DESC OF CODE: Content page and event listener for iframe. 
+-->
+
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>formPage</title>         
+     </head>
+     
+     <body>
+          <div id="content"></div>
+          
+          <!--Add an event listener for the message--------------->
+          <script language="javascript">
+                 window.addEventListener("message", receiveMessage,
+                 false);
+                 var content = document.getElementById("content");
+                 
+                 <!--Function to set innerHTML event data display-->
+                 function receiveMessage(event) {
+
+                 content.innerHTML += "\<span>" +
+                 event.data + "</span>\ <br/>" + "</span>\ <br/>";                                                                        
+}
+          </script>         
+     </body>
+</html>
