@@ -1,0 +1,225 @@
+/*
+FILE NAME: stylecss.css
+AUTHOR: Quintin Mudge
+DATE CREATED: 05/09/2016
+OPERATING SYSTEM: Win32
+VERSION: Windows 7 Pro
+DESC OF CODE: External styling sheet used by all four pages on the website. 
+*/
+
+html             {
+          width:100%;
+          height:100%;
+}
+#container  {
+          min-width: 1663px;
+          min-height: 100%;
+          background-size: 100%;
+          background-color: black;
+          padding: 0;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+}
+@font-face {
+          font-family: turtles;
+          src: url("turtles.ttf");
+}
+#flashtext {
+          color: #00f;
+}
+header        {
+          background:url("img14.jpg");
+          text-align: left;
+          position: absolute;
+          top: 0px;
+          height: 300px;
+          min-width: 100%;
+          background-size: 100% 200%;
+          background-repeat: no-repeat;
+   
+          
+}
+h1              {
+          font-size:700%;
+          font-family: turtles;
+          letter-spacing: 0.1em;
+          text-shadow:0 0 0.8em #FF8C00;
+          color: #CF1020;
+          margin-top: 20px;
+          text-align: center;
+}
+h2              { 
+          font-size:350%;
+          font-family: fantasy;
+          letter-spacing: 0.1em;
+          font-weight: bold;
+          letter-spacing: 0.-2em;
+          margin-top:-70px;
+          text-align: center;
+}
+          
+nav             {
+          position: absolute;
+          margin-top: 200px;
+          min-width: 100%;
+}
+ul                {
+          font: italic normal 140%'Times New Roman', Times, serif;
+          font-weight: bold;
+          list-style-type: none;
+}
+li                 {
+          float: left;
+          margin-left: 43px;
+}
+li a, .dropbtn {
+          display: inline-block;
+          color: gold;
+          text-align: center;
+          padding: 15px 17px;
+          text-decoration: underline;
+}
+li a:hover, .dropdown:hover .dropbtn  {
+          background-color: #CF1020;
+          padding: 12px 14px;
+          border: solid;
+          border-color: #FF8C00;
+}
+li.dropdown {
+          display: inline-block;
+}
+.dropdown-content {
+          display: none;
+          position: absolute;
+          min-width: 127px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1000;
+}
+.dropdown-content a {
+          color: black;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+}
+dropdown-content a:hover {
+          background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+          display: block;
+          background-color: gold;
+          position:relative;
+}
+section        { 
+          margin-top: 300px;
+          position: absolute;
+}
+aside           {
+          margin-top: 1020px;
+          position: absolute;
+}
+          /* The animation code */ /* Chrome, Safari, Opera*/ 
+          @-webkit-keyframes spaceShip {
+          0%  {background-image:url("img11.jpg");left:0px; top:0px;}
+          50%  {background-image:url("img11.jpg");left:1550px; top:0px;}
+          100%{background-image:url("img11.jpg"); left:0px; top:0px;}
+}
+article          {
+          position: absolute;
+}
+h3               {    
+          font-family: turtles;
+          font-size:450%;
+          letter-spacing: 0.1em;
+          text-shadow:0 0 0.8em #FF8C00;
+          color: #CF1020;
+          
+}
+h4               {
+          text-align: center;
+          font: italic normal 140% 'Times New Roman', Times, serif;
+          font-weight: bold;
+          text-align: left;
+          color: gold;
+          
+     
+}
+p                 {
+          font: italic normal 120% 'Times New Roman', Times, serif;
+          color: silver;
+          text-shadow:0 0 0.8em #FF8C00;
+}
+/* Transition for button "more.." */
+.button    {
+          background-color: #f9f9f9;
+          border: none;
+          font-family: italic normal 140%'Times New Roman', Times, serif;
+          font-weight:bold;
+          padding: 12px 24px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          -webkit-transition-duration: 0.4s; /* Safari */
+          transition-duration: 0.4s;
+          cursor: pointer;
+}
+.button1  {
+          background-color: #CF1020;
+          color: black;
+          border: 2px solid #FF8C00;
+}
+.button1:hover {
+          background-color: gold;
+          color: #CF1020;
+}
+footer         {
+          background-color: #FF8C00;
+          opacity: 0.7;
+          position: absolute;
+          bottom: 0px;
+          height: 30px;
+          min-width: 100%;
+}
+#footerText {
+          color: black;
+          font-size: 15px;
+          font-weight: bold;
+          position: relative;
+          bottom: 5px;
+          text-align: center;
+}
+
+/* Style for form link button */
+.btnBook  {
+          background: #34d976;
+          background-image: -webkit-linear-gradient(top, #34d976, #2c5fb8);
+          background-image: -moz-linear-gradient(top, #34d976, #2c5fb8);
+          background-image: -ms-linear-gradient(top, #34d976, #2c5fb8);
+          background-image: -o-linear-gradient(top, #34d976, #2c5fb8);
+          background-image: linear-gradient(to bottom, #34d976, #2c5fb8);
+          -webkit-border-radius: 60px 0px 0px 60px ;
+          -moz-border-radius: 60px 0px 0px 60px ;
+          border-radius: 60px 0px 0px 60px ;
+          text-shadow: 1px 1px 3px #000000;
+          -webkit-box-shadow: 0px 1px 3px #666666;
+          -moz-box-shadow: 0px 1px 3px #666666;
+          box-shadow: 0px 1px 3px #666666;
+          font-family: Georgia;
+          color: #ffffff;
+          font-size: 55px;
+          padding: 15px 60px 15px 60px;
+          border: solid #1f768c 3px;
+          text-decoration: none;
+}
+
+.btnBook:hover {
+          background: #3cfc3c;
+          background-image: -webkit-linear-gradient(top, #3cfc3c, #34ced9);
+          background-image: -moz-linear-gradient(top, #3cfc3c, #34ced9);
+          background-image: -ms-linear-gradient(top, #3cfc3c, #34ced9);
+          background-image: -o-linear-gradient(top, #3cfc3c, #34ced9);
+          background-image: linear-gradient(to bottom, #3cfc3c, #34ced9);
+          text-decoration: none;
+}
