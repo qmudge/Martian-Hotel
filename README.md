@@ -16,3 +16,5 @@ Aim: Hotel accommodation information and reservation booking form.
 ![screenshot 58](https://user-images.githubusercontent.com/34503137/34167907-ca5f73f8-e4eb-11e7-92eb-960059922fe9.png)
 ## Accommodation details.
 ![screenshot 59](https://user-images.githubusercontent.com/34503137/34168448-3795e6cc-e4ed-11e7-8de4-078bdb19fd3f.png)
+## Specials details.
+![screenshot 61](https://user-images.githubusercontent.com/34503137/34168683-d4ea999a-e4ed-11e7-87df-04d8be4378ea.png)
