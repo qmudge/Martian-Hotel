@@ -18,3 +18,5 @@ Aim: Hotel accommodation information and reservation booking form.
 ![screenshot 59](https://user-images.githubusercontent.com/34503137/34168448-3795e6cc-e4ed-11e7-8de4-078bdb19fd3f.png)
 ## Specials details.
 ![screenshot 61](https://user-images.githubusercontent.com/34503137/34168683-d4ea999a-e4ed-11e7-87df-04d8be4378ea.png)
+## Blank form, Uses validation to check input values.
+![screenshot 62](https://user-images.githubusercontent.com/34503137/34168796-24717a4c-e4ee-11e7-9379-9dd08f574545.png)
