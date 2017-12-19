@@ -14,3 +14,5 @@ Aim: Hotel accommodation information and reservation booking form.
 ![screenshot 56](https://user-images.githubusercontent.com/34503137/34166707-473cf818-e4e8-11e7-8a57-9c5ad56f3f06.png)
 ## Drop down info.
 ![screenshot 58](https://user-images.githubusercontent.com/34503137/34167907-ca5f73f8-e4eb-11e7-92eb-960059922fe9.png)
+## Accommodation details.
+![screenshot 59](https://user-images.githubusercontent.com/34503137/34168448-3795e6cc-e4ed-11e7-8de4-078bdb19fd3f.png)
