@@ -22,3 +22,5 @@ Aim: Hotel accommodation information and reservation booking form.
 ![screenshot 62](https://user-images.githubusercontent.com/34503137/34168796-24717a4c-e4ee-11e7-9379-9dd08f574545.png)
 ## Valid input makes fields appear blue in color. 
 ![screenshot 63](https://user-images.githubusercontent.com/34503137/34169348-c5184fba-e4ef-11e7-829b-6de7cfdd58d4.png)
+## Submit the form for data handling if all fields are valid. Notifies the user that submission is successful.
+![screenshot 64](https://user-images.githubusercontent.com/34503137/34169565-7a6099c2-e4f0-11e7-97ea-1db0f9e459bd.png)
