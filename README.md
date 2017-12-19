@@ -10,3 +10,5 @@ Aim: Hotel accommodation information and reservation booking form.
 ![screenshot 51](https://user-images.githubusercontent.com/34503137/34161719-26e6d43e-e4da-11e7-8b99-577c9f898bc0.png)
 ## Casino page, Contains short demonstration video.
 ![screenshot 55](https://user-images.githubusercontent.com/34503137/34166528-cf7a12f2-e4e7-11e7-8e3e-3820461bd584.png)
+## Restaurant/menu page.
+![screenshot 56](https://user-images.githubusercontent.com/34503137/34166707-473cf818-e4e8-11e7-8a57-9c5ad56f3f06.png)
